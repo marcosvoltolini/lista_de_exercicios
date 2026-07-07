@@ -1,7 +1,7 @@
 <?php
 function analisarTexto(){
     $texto = "A sexta estrela não esta na camisa, porque está no campo (Neymar)";
+    $tamanho = strlen($texto);
+    $palavra = str_word_count($texto);
+    
 }
-echo strlen($texto);
-echo substr_count($texto, 'aeiouAEIOU');
-echo substr_count($texto, 'bcdfghjklmnpqrstvwxyzBCDFGHJKLMNPQRSTVWXYZ')

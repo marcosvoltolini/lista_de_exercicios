@@ -29,3 +29,6 @@ $numeroPerfeito = ($somaDivisores == $numero) ? "é perfeito" : "não é perfeit
  return [$parOuImpar, $numeroPrimo, $numeroPerfeito];
 }
 
+$numero = 21;    
+$analise = analisarNumero($numero);
+echo "Número $numero " . $analise[0] . ", " . $analise[1] . " e " . $analise[2] . ".";

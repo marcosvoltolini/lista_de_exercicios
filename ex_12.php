@@ -24,8 +24,8 @@ function analisarProdutos($produtos, $produtoPesquisa)
     $media = $soma / count($produtos);
 
     return [
-        "maisCaro" => $Caro,
-        "maisBarato" => $Barato,
+        "Caro" => $Caro,
+        "Barato" => $Barato,
         "media" => $media,
         "pesquisa" => $encontrado
     ];
